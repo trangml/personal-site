@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 
 import CategoryButton from './Skills/CategoryButton';
 import SkillBar from './Skills/SkillBar';
@@ -61,9 +61,7 @@ const Skills = ({ skills, categories }) => {
       <div className="link-to" id="skills" />
       <div className="title">
         <h3>Skills</h3>
-        <p>Note: I think these sections are silly, but everyone seems to have one.
-          Here is a *mostly* honest overview of my skills.
-        </p>
+        <p>Note: A subjective overview of my skills </p>
       </div>
       <div className="skill-button-container">
         {getButtons()}

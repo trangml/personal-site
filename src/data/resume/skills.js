@@ -25,6 +25,7 @@ const skills = [
     category: ['Tools', 'Languages'],
   },
   {
+<<<<<<< HEAD
     title: 'Amazon Web Services',
     competency: 4,
     category: ['Web Development', 'Tools'],
@@ -55,19 +56,11 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
+=======
+>>>>>>> 7bc7dc0 (initial update with changes to my information)
     title: 'Data Mining',
     competency: 3,
     category: ['ML Engineering'],
-  },
-  {
-    title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Flask',
@@ -80,11 +73,12 @@ const skills = [
     category: ['Web Development', 'Python'],
   },
   {
-    title: 'Git/Mercurial',
+    title: 'Git/Subversion',
     competency: 3,
     category: ['Tools'],
   },
   {
+<<<<<<< HEAD
     title: 'Kubernetes',
     competency: 2,
     category: ['Tools', 'Data Engineering'],
@@ -117,6 +111,10 @@ const skills = [
   {
     title: 'Numba',
     competency: 2,
+=======
+    title: 'Numpy',
+    competency: 5,
+>>>>>>> 7bc7dc0 (initial update with changes to my information)
     category: ['Data Science', 'Data Engineering', 'Python'],
   },
   {
@@ -161,12 +159,16 @@ const skills = [
   },
   {
     title: 'C++',
+<<<<<<< HEAD
     competency: 1,
     category: ['Languages'],
   },
   {
     title: 'Julia',
     competency: 2,
+=======
+    competency: 4,
+>>>>>>> 7bc7dc0 (initial update with changes to my information)
     category: ['Languages'],
   },
   {
@@ -175,19 +177,9 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'R',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
     title: 'Data Visualization',
     competency: 3,
     category: ['Data Science', 'Javascript'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
   },
   {
     title: 'Pandas',
@@ -202,6 +194,7 @@ const skills = [
   {
     title: 'Scikit-Learn',
     competency: 4,
+<<<<<<< HEAD
     category: ['Data Engineering', 'ML Engineering', 'Python'],
   },
   {
@@ -218,6 +211,9 @@ const skills = [
     title: 'Mypy',
     competency: 3,
     category: ['Python'],
+=======
+    category: ['Data Engineering', 'Data Science', 'Python'],
+>>>>>>> 7bc7dc0 (initial update with changes to my information)
   },
   {
     title: 'Pylint',
@@ -228,18 +224,31 @@ const skills = [
 
 // this is a list of colors that I like. The length should be === to the
 // number of categories. Re-arrange this list until you find a pattern you like.
+// const colors = [
+//   '#6968b3',
+//   '#37b1f5',
+//   '#40494e',
+//   '#515dd4',
+//   '#e47272',
+//   '#cc7b94',
+//   '#3896e2',
+//   '#c3423f',
+//   '#d75858',
+//   '#747fff',
+//   '#64cb7b',
+// ];
 const colors = [
-  '#6968b3',
-  '#37b1f5',
-  '#40494e',
-  '#515dd4',
-  '#e47272',
-  '#cc7b94',
-  '#3896e2',
-  '#c3423f',
-  '#d75858',
-  '#747fff',
-  '#64cb7b',
+  '#f4dbd6',
+  '#f0c6c6',
+  '#f5bde6',
+  '#c6a0f6',
+  '#ed8796',
+  '#ee99a0',
+  '#f5a97f',
+  '#eed49f',
+  '#a6da95',
+  '#8bd5ca', // teal
+  '#89dceb',
 ];
 
 const categories = [
