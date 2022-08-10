@@ -13,8 +13,9 @@ worked on, and from it, I learned that working on ML was what I truly wanted to 
 <!-- At Arthena, I have learned how to build teams, manage people, shape culture, develop relationships with customers, sell enterprise products, and build on-line predictive models with technologies like [Dask](https://dask.org/), [Dagster](https://dagster.io/), [TensorFlow](https://www.tensorflow.org/), and [spaCy](https://spacy.io/). I primarily work as a data engineer but have broad experience across Arthena’s stack. -->
 
 # Some history
+I was born in Oklahoma. I moved to Virginia.
 
-I was born in Oklahoma.
+I learned programming at the Governor's School at Innovation Park
 
 # I like
 
