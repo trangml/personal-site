@@ -8,6 +8,7 @@ import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
 import References from '../components/Resume/References';
 import Skills from '../components/Resume/Skills';
+import PDF from '../components/Resume/PDF';
 
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
@@ -21,6 +22,7 @@ const sections = {
   Skills: () => <Skills skills={skills} categories={categories} />,
   Courses: () => <Courses data={courses} />,
   References: () => <References />,
+  PDF: () => <PDF />,
 };
 
 const Resume = () => (

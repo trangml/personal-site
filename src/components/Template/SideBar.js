@@ -20,13 +20,13 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Matthew.
-        I am a Computer Engineering graduate student at <a href="https://ece.vt.edu/">Virginia Tech</a> studying Machine Learning.
-        I am currently working as a Machine Learning Engineer at <a href="https://shield.ai/">Shield AI</a>, developing AI Fighter Pilots using Reinforcement Learning.
+        I am a Computer Engineering Graduate Student at <a href="https://ece.vt.edu/">Virginia Tech</a> studying Machine Learning.
+        I am currently working as a Machine Learning Engineer at <a href="https://shield.ai/">Shield AI</a>, developing AI Pilots using Reinforcement Learning.
         Previously, I&apos;ve been at <a href="https://collinsaerospace.com">Collins Aerospace</a>
         , <a href="https://moog.com">Moog</a>
         , <a href="https://vsgi.gmu.edu">Virginia Serious Games Institute</a>
         , <a href="https://gmu.edu">George Mason University</a>
-        , and  <a href="https://naturalhistory.si.edu/">the Smithsonian Institute</a>
+        , and  <a href="https://naturalhistory.si.edu/">the Smithsonian Institute.</a>
       </p>
       <ul className="actions">
         <li>
@@ -37,7 +37,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Matthew Trang <Link to="/">trangml.github.io</Link>.</p>
+      <p className="copyright">&copy; Matthew Trang <Link to="/">trangml.com</Link>.</p>
     </section>
   </section>
 );
