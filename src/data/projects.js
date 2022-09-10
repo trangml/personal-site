@@ -34,7 +34,8 @@ const data = [
   },
   // {
   //   title: 'SmartSleeve',
-  //   subtitle: 'Wearable biomechanical and physiology monitor for injury prevention and rehabilitation',
+  //   subtitle: 'Wearable biomechanical and physiology monitor for
+  // injury prevention and rehabilitation',
   //   image: '/images/projects/smartsleeve_1.jpg',
   //   link: 'https://patents.google.com/patent/US11284838B2/en?inventor=matthew+trang&oq=matthew+trang',
   //   date: '2018-07-20',
