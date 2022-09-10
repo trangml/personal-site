@@ -1,13 +1,16 @@
+// TODO: Add Athletic Skills, Office Skills,
+// Data Engineering, Machine Learning, ML Engineering, ... ?
+
 const skills = [
   {
     title: 'Javascript',
-    competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    competency: 3,
+    category: ['Web Development', 'Languages'],
   },
   {
     title: 'Node.JS',
-    competency: 5,
-    category: ['Web Development', 'Javascript'],
+    competency: 3,
+    category: ['Web Development'],
   },
   {
     title: 'React',
@@ -17,50 +20,12 @@ const skills = [
   {
     title: 'Next.JS',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development'],
   },
   {
     title: 'Bash',
-    competency: 2,
+    competency: 4,
     category: ['Tools', 'Languages'],
-  },
-  {
-<<<<<<< HEAD
-    title: 'Amazon Web Services',
-    competency: 4,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'MongoDB',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL/Redshift',
-    competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
-  },
-  {
-    title: 'Redis',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-=======
->>>>>>> 7bc7dc0 (initial update with changes to my information)
-    title: 'Data Mining',
-    competency: 3,
-    category: ['ML Engineering'],
   },
   {
     title: 'Flask',
@@ -68,30 +33,14 @@ const skills = [
     category: ['Web Development', 'Python'],
   },
   {
-    title: 'FastAPI',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
     title: 'Git/Subversion',
-    competency: 3,
+    competency: 5,
     category: ['Tools'],
   },
   {
-<<<<<<< HEAD
     title: 'Kubernetes',
     competency: 2,
     category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'AWS',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
   },
   {
     title: 'Docker',
@@ -99,43 +48,23 @@ const skills = [
     category: ['Tools', 'Data Engineering'],
   },
   {
-    title: 'AWS Lambda',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
-  },
-  {
     title: 'Numpy',
-    competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Numba',
-    competency: 2,
-=======
-    title: 'Numpy',
-    competency: 5,
->>>>>>> 7bc7dc0 (initial update with changes to my information)
     category: ['Data Science', 'Data Engineering', 'Python'],
   },
   {
-    title: 'Tensorflow + Keras',
-    competency: 3,
-    category: ['ML Engineering', 'Python'],
+    title: 'PyTorch',
+    competency: 5,
+    category: ['Python', 'Machine Learning'],
   },
   {
-    title: 'PyTorch',
-    competency: 3,
-    category: ['ML Engineering', 'Python'],
+    title: 'Tensorflow + Keras',
+    competency: 4,
+    category: ['Python', 'Machine Learning'],
   },
   {
     title: 'Jupyter',
-    competency: 3,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Typescript',
-    competency: 3,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    competency: 4,
+    category: ['Machine Learning', 'Python'],
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
@@ -145,41 +74,27 @@ const skills = [
   {
     title: 'Python',
     competency: 5,
-    category: ['Languages', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Ruby',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Ruby on Rails',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
+    category: ['Machine Learning', 'Python', 'Machine Learning', 'Robotics'],
   },
   {
     title: 'C++',
-<<<<<<< HEAD
-    competency: 1,
-    category: ['Languages'],
-  },
-  {
-    title: 'Julia',
-    competency: 2,
-=======
     competency: 4,
->>>>>>> 7bc7dc0 (initial update with changes to my information)
-    category: ['Languages'],
+    category: ['Languages', 'Robotics'],
   },
   {
     title: 'MATLAB',
-    competency: 2,
+    competency: 4,
     category: ['Languages'],
   },
   {
-    title: 'Data Visualization',
+    title: 'Simulink',
     competency: 3,
-    category: ['Data Science', 'Javascript'],
+    category: ['Languages', 'Robotics'],
+  },
+  {
+    title: 'Data Visualization (Matplotlib, Seaborn, Plotly)',
+    competency: 4,
+    category: ['Machine Learning', 'Python'],
   },
   {
     title: 'Pandas',
@@ -194,31 +109,52 @@ const skills = [
   {
     title: 'Scikit-Learn',
     competency: 4,
-<<<<<<< HEAD
     category: ['Data Engineering', 'ML Engineering', 'Python'],
   },
   {
-    title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'ML Engineering'],
-  },
-  {
-    title: 'Dagster',
-    competency: 2,
-    category: ['Data Engineering', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Mypy',
-    competency: 3,
-    category: ['Python'],
-=======
-    category: ['Data Engineering', 'Data Science', 'Python'],
->>>>>>> 7bc7dc0 (initial update with changes to my information)
-  },
-  {
-    title: 'Pylint',
+    title: 'LaTeX',
     competency: 4,
-    category: ['Data Engineering', 'Python'],
+    category: ['Languages'],
+  },
+  {
+    title: 'C',
+    competency: 3,
+    category: ['Languages', 'Robotics'],
+  },
+  {
+    title: 'C#',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'Docker',
+    competency: 2,
+    category: ['Tools'],
+  },
+  {
+    title: '3D Modeling (Autodesk Inventor, SolidWorks, Blender)',
+    competency: 4,
+    category: ['Tools', 'Robotics'],
+  },
+  {
+    title: 'Robot Operating System (ROS)',
+    competency: 3,
+    category: ['Tools', 'Robotics'],
+  },
+  {
+    title: 'Linux',
+    competency: 5,
+    category: ['Tools'],
+  },
+  {
+    title: 'OpenCV',
+    competency: 4,
+    category: ['Python', 'Machine Learning', 'Robotics'],
+  },
+  {
+    title: 'Stable Baselines/RLLib',
+    competency: 4,
+    category: ['Python', 'Machine Learning'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -238,17 +174,17 @@ const skills = [
 //   '#64cb7b',
 // ];
 const colors = [
-  '#f4dbd6',
-  '#f0c6c6',
   '#f5bde6',
   '#c6a0f6',
-  '#ed8796',
   '#ee99a0',
-  '#f5a97f',
-  '#eed49f',
   '#a6da95',
   '#8bd5ca', // teal
   '#89dceb',
+  '#f5a97f',
+  '#eed49f',
+  '#f4dbd6',
+  '#f0c6c6',
+  '#ed8796',
 ];
 
 const categories = [
