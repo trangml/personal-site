@@ -32,17 +32,17 @@ const data = [
       'Developed a wearable assistive technology device which allowed helped a student with disability use his computer. '
       + 'Winner of the SourceAmerica Design Challenge with ~$5000 in prize money. ',
   },
-  {
-    title: 'SmartSleeve',
-    subtitle: 'Wearable biomechanical and physiology monitor for injury prevention and rehabilitation',
-    image: '/images/projects/smartsleeve_1.jpg',
-    link: 'https://patents.google.com/patent/US11284838B2/en?inventor=matthew+trang&oq=matthew+trang',
-    date: '2018-07-20',
-    desc:
-      'Built as part of the Aspiring Scientists Summer Internship Program (ASSIP) at GMU. '
-      + 'Provided a non-invasive way to monitor a patient during a rehabilitation period. '
-      + 'Patent was awarded March 29, 2022',
-  },
+  // {
+  //   title: 'SmartSleeve',
+  //   subtitle: 'Wearable biomechanical and physiology monitor for injury prevention and rehabilitation',
+  //   image: '/images/projects/smartsleeve_1.jpg',
+  //   link: 'https://patents.google.com/patent/US11284838B2/en?inventor=matthew+trang&oq=matthew+trang',
+  //   date: '2018-07-20',
+  //   desc:
+  //     'Built as part of the Aspiring Scientists Summer Internship Program (ASSIP) at GMU. '
+  //     + 'Provided a non-invasive way to monitor a patient during a rehabilitation period. '
+  //     + 'Patent was awarded March 29, 2022',
+  // },
 ];
 
 export default data;

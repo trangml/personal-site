@@ -27,11 +27,11 @@ const skills = [
     competency: 4,
     category: ['Tools', 'Languages'],
   },
-  {
-    title: 'Flask',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
+  // {
+  //   title: 'Flask',
+  //   competency: 4,
+  //   category: ['Web Development', 'Python'],
+  // },
   {
     title: 'Git/Subversion',
     competency: 5,
@@ -66,11 +66,11 @@ const skills = [
     competency: 4,
     category: ['Machine Learning', 'Python'],
   },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
+  // {
+  //   title: 'HTML + SASS/SCSS/CSS',
+  //   competency: 3,
+  //   category: ['Web Development', 'Languages'],
+  // },
   {
     title: 'Python',
     competency: 5,
@@ -121,11 +121,11 @@ const skills = [
     competency: 3,
     category: ['Languages', 'Robotics'],
   },
-  {
-    title: 'C#',
-    competency: 3,
-    category: ['Languages'],
-  },
+  // {
+  //   title: 'C#',
+  //   competency: 3,
+  //   category: ['Languages'],
+  // },
   {
     title: 'Docker',
     competency: 2,
