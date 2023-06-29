@@ -1,27 +1,30 @@
 // utils/api.js
 import fm from 'front-matter';
+import blogFileNames from '../../data/blog/blogFileNames.json';
 
-export const getBlogPosts = async () => {
-  const response = await fetch('/data/blog/');
-  const fileNames = await response.text();
-  console.log(fileNames);
+const getBlogPosts = async () => {
+  const blogsDirectory = '../data/blog';
 
-  const blogPosts = await Promise.all(
-    fileNames.map(async (fileName) => {
-      const files = await fetch(`/data/blog/${fileName}`);
-      const fileContent = await files.text();
+  const fetchPromises = blogFileNames
+    .filter((fileName) => fileName.endsWith('.md'))
+    .map(async (fileName) => {
+      const filePath = `${blogsDirectory}/${fileName}`;
+      const fileResponse = await fetch(filePath);
+      const fileContent = await fileResponse.text();
+
       const { attributes, body } = fm(fileContent);
-      const blogPost = {
-        id: fileName.replace(/\.md$/, ''), // Remove the '.md' extension from the file name
+
+      return {
+        id: fileName.replace(/\.md$/, ''),
         title: attributes.title,
         body,
         date: attributes.date,
       };
-      return blogPost;
-    }),
-  );
+    });
 
-  return blogPosts;
+  const posts = await Promise.all(fetchPromises);
+
+  return posts;
 };
 
 export default getBlogPosts;
