@@ -1,5 +1,16 @@
 const positions = [
   {
+    company: 'MIT Lincoln Laboratory',
+    position: 'Autonomous Systems Engineer',
+    link: 'https://ll.mit.edu',
+    daterange: 'March 2023 - Present',
+    points: [
+      'Designing Autonomous Systems at MIT Lincoln Laboratory\'s Advanced Capabilities and Systems Group',
+      'Utilize 3D Scene Graphs for outdoor data to execute complex tasks on a Boston Dynamics SPOT Robot',
+      'Training CLIP-based models for ATR and exploring counter methods to zero-shot ATR techniques',
+    ],
+  },
+  {
     company: 'Heron Systems, A Shield AI Subsidiary',
     position: 'Machine Learning Engineer',
     link: 'https://shield.ai',
@@ -15,19 +26,19 @@ const positions = [
     company: 'Virginia Tech ECE Department',
     position: 'Reinforcement Learning Researcher',
     link: 'https://vt.edu',
-    daterange: 'December 2021 - Present',
+    daterange: 'December 2021 - December 2022',
     points: [
-      'Research Multi-Agent Generalized RL for Autonomous Systems using PyBullet to simulate collaborative systems',
-      'Develop drone collaboration simulation environments and data processing pipeline for rapidly testing RL algorithms',
+      'Researched Multi-Agent Generalized RL for Autonomous Systems using PyBullet to simulate collaborative systems',
+      'Developed drone collaboration simulation environments and data processing pipeline for rapidly testing RL algorithms',
     ],
   },
   {
     company: 'Virginia Tech ECE Department',
     position: 'Graduate Teaching Assistant',
     link: 'https://vt.edu',
-    daterange: 'Jan 2022 - Present',
+    daterange: 'Jan 2022 - December 2022',
     points: [
-      'Collaborate with Professors and TAs to formulate comprehensive software design curriculum and projects for two semesters',
+      'Collaborated with Professors and TAs to formulate comprehensive software design curriculum and projects for two semesters',
       'Taught subject matter and assisted students with software projects for two classes with ~70 students in total using C++ and Qt',
     ],
   },

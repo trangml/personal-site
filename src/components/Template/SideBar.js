@@ -20,9 +20,10 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Matthew.
-        I am a Computer Engineering Graduate Student at <a href="https://ece.vt.edu/">Virginia Tech</a> studying Machine Learning.
-        I am currently working as a Machine Learning Engineer at <a href="https://shield.ai/">Shield AI</a>, developing AI Pilots using Reinforcement Learning.
-        Previously, I&apos;ve been at <a href="https://collinsaerospace.com">Collins Aerospace</a>
+        I am an Autonomous Systems Engineer at <a href="https://ll.mit.edu">MIT Lincoln Labs</a>. I graduated with a M.S./B.S. in Computer Engineering from
+        <a href="https://ece.vt.edu/"> Virginia Tech</a> focusing on Machine Learning.
+        Previously, I&apos;ve been at <a href="https://shield.ai/">Shield AI</a>, developing AI Pilots using Reinforcement Learning.
+        Other places I&apos;ve worked include <a href="https://collinsaerospace.com">Collins Aerospace</a>
         , <a href="https://moog.com">Moog</a>
         , <a href="https://vsgi.gmu.edu">Virginia Serious Games Institute</a>
         , <a href="https://gmu.edu">George Mason University</a>
