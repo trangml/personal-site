@@ -16,7 +16,6 @@ const Blog = () => {
         console.error(error);
       }
     };
-
     fetchBlogPosts();
   }, []);
 

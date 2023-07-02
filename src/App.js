@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 
@@ -15,7 +15,7 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
-const Blog = lazy(() => import('./pages/Blog'));
+// const Blog = lazy(() => import('./pages/Blog'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -27,7 +27,7 @@ const App = () => (
         <Route path="/stats" element={<Stats />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/blog" component={Blog} />
+        {/* <Route path="/blog" component={<Blog />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>

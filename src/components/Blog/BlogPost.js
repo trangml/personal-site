@@ -1,20 +1,20 @@
 // BlogPost.js
+import Markdown from 'markdown-to-jsx';
 import PropTypes from 'prop-types';
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 
 const BlogPost = ({ blogPost }) => (
   <div className="blog-post">
     <h3>{blogPost.title}</h3>
     {/* <p>{blogPost.date.toString()}</p>
     <div className="body">{blogPost.body}</div> */}
-    <ReactMarkdown
+    {/* <ReactMarkdown
       source={blogPost.body}
-      // renderers={{
-      //   Link: LinkRenderer,
-      // }}
       escapeHtml={false}
-    />
+    /> */}
+    <Markdown>
+      {blogPost.body}
+    </Markdown>
   </div>
 );
 

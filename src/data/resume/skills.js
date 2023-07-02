@@ -43,12 +43,8 @@ const skills = [
     category: ['Tools', 'Data Engineering'],
   },
   {
-    title: 'Docker',
-    competency: 3,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
     title: 'Numpy',
+    competency: 5,
     category: ['Data Science', 'Data Engineering', 'Python'],
   },
   {
