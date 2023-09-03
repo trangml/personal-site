@@ -30,14 +30,12 @@ const ExternalLink = () => {
   // Use window.location.href to navigate to an external URL
   // Replace the URL with your desired external link
   window.location.replace('https://www.blog.trangml.com');
-
   // Or use window.open() to open the link in a new tab/window
   // window.open('https://www.example.com', '_blank');
-
   // Note: You can choose either window.location.href or window.open() based on your requirements
   return null;
 };
-
+const isBrowser = typeof window !== 'undefined';
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
     <Suspense fallback={<Main />}>
@@ -49,7 +47,8 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
         {/* <Route path="/blog" element={<Navigate to="http://www.blog.trangml.com" replace />} /> */}
-        <Route path="/blog" element={<ExternalLink />} />
+        {isBrowser && <Route path="/blog" element={<ExternalLink />} />}
+        <Route path="*" element={<NotFound />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
