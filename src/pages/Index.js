@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
+const externalUrl = 'http://www.blog.trangml.com';
 const Index = () => (
+  // const externalUrl = 'https://www.blog.trangml.com';
   <Main
     description={"Matthew Trang's personal website. MIT Lincoln Laboratory. Virginia Tech ECE Graduate. "
       + 'Reinforcement Learning and Robotics enthusiast, avid learner.'}
@@ -22,6 +24,7 @@ const Index = () => (
         <Link to="/resume">resum&eacute;</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
         view <Link to="/stats">site statistics</Link>, {' '}
+        visit my <a href={externalUrl} rel="noopener noreferrer">tech blog</a>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
     </article>
