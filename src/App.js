@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import TagManager from 'react-gtm-module';
+// import TagManager from 'react-gtm-module';
 import {
   BrowserRouter,
   Route, Routes,
@@ -7,11 +7,11 @@ import {
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 
-const tagManagerArgs = {
-  gtmId: 'G-9FRJY3ZWZG',
-};
+// const tagManagerArgs = {
+//   gtmId: 'G-9FRJY3ZWZG',
+// };
 
-TagManager.initialize(tagManagerArgs);
+// TagManager.initialize(tagManagerArgs);
 
 const { PUBLIC_URL } = process.env;
 
