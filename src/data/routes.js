@@ -22,7 +22,7 @@ const routes = [
   },
   {
     label: 'Blog',
-    path: '/blog',
+    path: 'http://www.blog.trangml.com',
   },
   {
     label: 'Contact',
