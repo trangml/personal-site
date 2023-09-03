@@ -37,7 +37,6 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
   </BrowserRouter>

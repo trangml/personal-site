@@ -21,12 +21,12 @@ const routes = [
     path: '/stats',
   },
   {
-    label: 'Blog',
-    path: 'http://www.blog.trangml.com',
-  },
-  {
     label: 'Contact',
     path: '/contact',
+  },
+  {
+    label: 'Blog',
+    path: 'http://www.blog.trangml.com',
   },
 ];
 
