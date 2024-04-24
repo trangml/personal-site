@@ -24,10 +24,10 @@ const routes = [
     label: 'Contact',
     path: '/contact',
   },
-  {
-    label: 'Blog',
-    path: 'http://www.blog.trangml.com',
-  },
+  // {
+  //   label: 'Blog',
+  //   path: 'http://www.blog.trangml.com',
+  // },
 ];
 
 export default routes;
